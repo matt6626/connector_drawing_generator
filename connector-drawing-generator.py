@@ -320,7 +320,7 @@ def draw_minifit_jr(
     )
 
     # export drawing to file
-    d.set_pixel_scale(2)  # Set number of pixels per geometry unit
+    d.set_pixel_scale(10)  # Set number of pixels per geometry unit
     # d.set_render_size(400, 200)  # Alternative to set_pixel_scale
     right_angle_dict = {False: "vert", True: "horiz"}
     file_name = f"mini-fit-jr_{right_angle_dict[right_angle]}_{row_count}x{int(pin_count / row_count)}"
