@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="612.0" height="325.0" viewBox="0 0 306.0 162.5">
+<defs>
+</defs>
+<rect x="0" y="0" width="306.0" height="162.5" stroke="black" stroke-width="4" fill="#ffffff" />
+<rect x="21.0" y="113.0" width="8" height="8" stroke="black" stroke-width="1.2" fill="#f5f5f5" />
+<rect x="277.0" y="113.0" width="8" height="8" stroke="black" stroke-width="1.2" fill="#f5f5f5" />
+<circle cx="285.0" cy="30.0" r="3.0" stroke-dasharray="9.42477796076938 9.42477796076938" stroke-dashoffset="-14.137166941154069" stroke="black" stroke-width="1.2" fill="#f5f5f5" />
+<rect x="252.3" y="117.0" width="11.4" height="25" stroke="black" stroke-width="1.2" fill="#d1d1d1" />
+<path d="M252.3,142.0 L263.7,142.0 L259.90000000000003,152.0 L256.1,152.0 L252.3,142.0 Z" stroke="black" stroke-width="1.2" fill="#d1d1d1" />
+<rect x="210.3" y="117.0" width="11.4" height="25" stroke="black" stroke-width="1.2" fill="#d1d1d1" />
+<path d="M210.3,142.0 L221.70000000000002,142.0 L217.9,152.0 L214.10000000000002,152.0 L210.3,142.0 Z" stroke="black" stroke-width="1.2" fill="#d1d1d1" />
+<rect x="168.3" y="117.0" width="11.4" height="25" stroke="black" stroke-width="1.2" fill="#d1d1d1" />
+<path d="M168.3,142.0 L179.70000000000002,142.0 L175.9,152.0 L172.10000000000002,152.0 L168.3,142.0 Z" stroke="black" stroke-width="1.2" fill="#d1d1d1" />
+<rect x="126.3" y="117.0" width="11.4" height="25" stroke="black" stroke-width="1.2" fill="#d1d1d1" />
+<path d="M126.3,142.0 L137.7,142.0 L133.9,152.0 L130.1,152.0 L126.3,142.0 Z" stroke="black" stroke-width="1.2" fill="#d1d1d1" />
+<rect x="84.3" y="117.0" width="11.4" height="25" stroke="black" stroke-width="1.2" fill="#d1d1d1" />
+<path d="M84.3,142.0 L95.7,142.0 L91.89999999999999,152.0 L88.1,152.0 L84.3,142.0 Z" stroke="black" stroke-width="1.2" fill="#d1d1d1" />
+<rect x="42.3" y="117.0" width="11.4" height="25" stroke="black" stroke-width="1.2" fill="#d1d1d1" />
+<path d="M42.3,142.0 L53.699999999999996,142.0 L49.9,152.0 L46.099999999999994,152.0 L42.3,142.0 Z" stroke="black" stroke-width="1.2" fill="#d1d1d1" />
+<rect x="21.0" y="21.0" width="264.0" height="96" stroke="black" stroke-width="2" fill="#f5f5f5" rx="3.0" />
+<circle cx="285.0" cy="90.0" r="3.0" stroke-dasharray="9.42477796076938 9.42477796076938" stroke-dashoffset="-14.137166941154069" stroke="black" stroke-width="2" stroke-linecap="square" fill="#f5f5f5" />
+<rect x="239.5" y="71.5" width="37" height="37" stroke="black" stroke-width="2" fill="#d1d1d1" />
+<text x="258.0" y="90.0" font-size="14" font-family="arial" font-weight="bold" text-anchor="middle" dominant-baseline="central">1</text>
+<path d="M197.5,71.5 L234.5,71.5 L234.5,99.25 L225.25,108.5 L206.75,108.5 L197.5,99.25 L197.5,71.5 Z" stroke="black" stroke-width="2" fill="#d1d1d1" />
+<text x="216.0" y="90.0" font-size="14" font-family="arial" font-weight="bold" text-anchor="middle" dominant-baseline="central">2</text>
+<path d="M155.5,71.5 L192.5,71.5 L192.5,99.25 L183.25,108.5 L164.75,108.5 L155.5,99.25 L155.5,71.5 Z" stroke="black" stroke-width="2" fill="#d1d1d1" />
+<text x="174.0" y="90.0" font-size="14" font-family="arial" font-weight="bold" text-anchor="middle" dominant-baseline="central">3</text>
+<rect x="113.5" y="71.5" width="37" height="37" stroke="black" stroke-width="2" fill="#d1d1d1" />
+<text x="132.0" y="90.0" font-size="14" font-family="arial" font-weight="bold" text-anchor="middle" dominant-baseline="central">4</text>
+<rect x="71.5" y="71.5" width="37" height="37" stroke="black" stroke-width="2" fill="#d1d1d1" />
+<text x="90.0" y="90.0" font-size="14" font-family="arial" font-weight="bold" text-anchor="middle" dominant-baseline="central">5</text>
+<path d="M29.5,71.5 L66.5,71.5 L66.5,99.25 L57.25,108.5 L38.75,108.5 L29.5,99.25 L29.5,71.5 Z" stroke="black" stroke-width="2" fill="#d1d1d1" />
+<text x="48.0" y="90.0" font-size="14" font-family="arial" font-weight="bold" text-anchor="middle" dominant-baseline="central">6</text>
+<path d="M239.5,29.5 L276.5,29.5 L276.5,57.25 L267.25,66.5 L248.75,66.5 L239.5,57.25 L239.5,29.5 Z" stroke="black" stroke-width="2" fill="#d1d1d1" />
+<text x="258.0" y="48.0" font-size="14" font-family="arial" font-weight="bold" text-anchor="middle" dominant-baseline="central">7</text>
+<rect x="197.5" y="29.5" width="37" height="37" stroke="black" stroke-width="2" fill="#d1d1d1" />
+<text x="216.0" y="48.0" font-size="14" font-family="arial" font-weight="bold" text-anchor="middle" dominant-baseline="central">8</text>
+<path d="M155.5,29.5 L192.5,29.5 L192.5,57.25 L183.25,66.5 L164.75,66.5 L155.5,57.25 L155.5,29.5 Z" stroke="black" stroke-width="2" fill="#d1d1d1" />
+<text x="174.0" y="48.0" font-size="14" font-family="arial" font-weight="bold" text-anchor="middle" dominant-baseline="central">9</text>
+<path d="M113.5,29.5 L150.5,29.5 L150.5,57.25 L141.25,66.5 L122.75,66.5 L113.5,57.25 L113.5,29.5 Z" stroke="black" stroke-width="2" fill="#d1d1d1" />
+<text x="132.0" y="48.0" font-size="14" font-family="arial" font-weight="bold" text-anchor="middle" dominant-baseline="central">10</text>
+<rect x="71.5" y="29.5" width="37" height="37" stroke="black" stroke-width="2" fill="#d1d1d1" />
+<text x="90.0" y="48.0" font-size="14" font-family="arial" font-weight="bold" text-anchor="middle" dominant-baseline="central">11</text>
+<rect x="29.5" y="29.5" width="37" height="37" stroke="black" stroke-width="2" fill="#d1d1d1" />
+<text x="48.0" y="48.0" font-size="14" font-family="arial" font-weight="bold" text-anchor="middle" dominant-baseline="central">12</text>
+<rect x="136.0" y="7.0" width="34" height="14" stroke="black" stroke-width="2" fill="#f5f5f5" />
+</svg>
