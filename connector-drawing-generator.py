@@ -55,7 +55,10 @@ def draw_minifit_jr(
     drawing_width = (
         2 * connector_margin + body_width
     )  # add spacing on either side of drawing
-    drawing_height = body_height + 1.5 * connector_margin + pcb_pin_height
+    if right_angle:
+        drawing_height = body_height + 1.5 * connector_margin + pcb_pin_height
+    else:
+        drawing_height = body_height + 2 * connector_margin
     d = draw.Drawing(drawing_width, drawing_height, origin=(0, 0))
 
     # background
@@ -97,7 +100,7 @@ def draw_minifit_jr(
     )
 
     # connector rib line (background)
-    if row_count == 2:
+    if row_count == 2 and right_angle == True:
         bg_rib_line_y_offset = 1.5 * border_width
         d.append(
             draw.ArcLine(
@@ -268,12 +271,33 @@ def draw_minifit_jr(
     pin_ypos = pin1_ypos
 
     # single row keying doesn't seem to have a pattern
-    one_row_3pin = [1, 0, 0]
-    one_row_4pin = [0, 0, 1, 0]
-    one_row_5pin = [1, 0, 0, 1, 1]
+    pin_shape_key = {"square": 0, "hexagon": 1}
+    one_row_2pin = [pin_shape_key["hexagon"], pin_shape_key["square"]]
+    one_row_3pin = [
+        pin_shape_key["hexagon"],
+        pin_shape_key["square"],
+        pin_shape_key["square"],
+    ]
+    one_row_4pin = [
+        pin_shape_key["square"],
+        pin_shape_key["square"],
+        pin_shape_key["hexagon"],
+        pin_shape_key["square"],
+    ]
+    one_row_4pin = [
+        pin_shape_key["square"],
+        pin_shape_key["square"],
+        pin_shape_key["hexagon"],
+        pin_shape_key["square"],
+    ]
+    one_row_5pin = [
+        pin_shape_key["hexagon"],
+        pin_shape_key["square"],
+        pin_shape_key["square"],
+        pin_shape_key["hexagon"],
+        pin_shape_key["hexagon"],
+    ]
 
-    pin_shape = 0
-    flip = False
     curr_row = 0
     curr_col = 0
     draw_pin = {0: draw_square_pin, 1: draw_irregular_hexagon_pin}
@@ -285,22 +309,26 @@ def draw_minifit_jr(
         pin_ypos = pin1_ypos - pin_height * curr_row
 
         if row_count == 1:
+            if pin_count == 2:
+                pin_shape = one_row_2pin[pin]
             if pin_count == 3:
                 pin_shape = one_row_3pin[pin]
             elif pin_count == 4:
                 pin_shape = one_row_4pin[pin]
             elif pin_count == 5:
                 pin_shape = one_row_5pin[pin]
-        d.append(draw_pin[pin_shape](pin_xpos, pin_ypos, fill=pin_fill_color))
-
-        if pin % (pin_count / row_count) == 0:
-            pin_shape = not pin_shape
         else:
-            if flip:
-                pin_shape = not pin_shape
-                flip = False
+            if curr_row == 0:
+                pin_shape = pin_shape_key["square"]
+                if curr_col % 4 == 1 or curr_col % 4 == 2:
+                    pin_shape = pin_shape_key["hexagon"]
+
             else:
-                flip = True
+                pin_shape = pin_shape_key["hexagon"]
+                if curr_col % 4 == 1 or curr_col % 4 == 2:
+                    pin_shape = pin_shape_key["square"]
+
+        d.append(draw_pin[pin_shape](pin_xpos, pin_ypos, fill=pin_fill_color))
 
         d.append(draw_pin_number(pin_xpos, pin_ypos, pin + 1))
 
@@ -339,7 +367,7 @@ def draw_minifit_jr(
     # d.save_png(f"{path}.svg")
     # os.system(f"open {file_name}")
 
-
+draw_minifit_jr(2, 1, True)
 draw_minifit_jr(3, 1, True)
 draw_minifit_jr(4, 1, True)
 draw_minifit_jr(5, 1, True)
@@ -355,3 +383,19 @@ draw_minifit_jr(18, 2, True)
 draw_minifit_jr(20, 2, True)
 draw_minifit_jr(22, 2, True)
 draw_minifit_jr(24, 2, True)
+draw_minifit_jr(2, 1, False)
+draw_minifit_jr(3, 1, False)
+draw_minifit_jr(4, 1, False)
+draw_minifit_jr(5, 1, False)
+draw_minifit_jr(2, 2, False)
+draw_minifit_jr(4, 2, False)
+draw_minifit_jr(6, 2, False)
+draw_minifit_jr(8, 2, False)
+draw_minifit_jr(10, 2, False)
+draw_minifit_jr(12, 2, False)
+draw_minifit_jr(14, 2, False)
+draw_minifit_jr(16, 2, False)
+draw_minifit_jr(18, 2, False)
+draw_minifit_jr(20, 2, False)
+draw_minifit_jr(22, 2, False)
+draw_minifit_jr(24, 2, False)
