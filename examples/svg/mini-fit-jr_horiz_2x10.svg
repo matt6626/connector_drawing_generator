@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-     width="948.0" height="325.0" viewBox="0 0 474.0 162.5">
+     width="4740.0" height="1625.0" viewBox="0 0 474.0 162.5">
 <defs>
 </defs>
 <rect x="0" y="0" width="474.0" height="162.5" stroke="None" stroke-width="0" fill="#ffffff" />
@@ -53,19 +53,19 @@
 <text x="426.0" y="48.0" font-size="14" font-family="arial" font-weight="bold" text-anchor="middle" dominant-baseline="central">11</text>
 <rect x="365.5" y="29.5" width="37" height="37" stroke="black" stroke-width="2" fill="#d1d1d1" />
 <text x="384.0" y="48.0" font-size="14" font-family="arial" font-weight="bold" text-anchor="middle" dominant-baseline="central">12</text>
-<path d="M323.5,29.5 L360.5,29.5 L360.5,57.25 L351.25,66.5 L332.75,66.5 L323.5,57.25 L323.5,29.5 Z" stroke="black" stroke-width="2" fill="#d1d1d1" />
+<rect x="323.5" y="29.5" width="37" height="37" stroke="black" stroke-width="2" fill="#d1d1d1" />
 <text x="342.0" y="48.0" font-size="14" font-family="arial" font-weight="bold" text-anchor="middle" dominant-baseline="central">13</text>
 <path d="M281.5,29.5 L318.5,29.5 L318.5,57.25 L309.25,66.5 L290.75,66.5 L281.5,57.25 L281.5,29.5 Z" stroke="black" stroke-width="2" fill="#d1d1d1" />
 <text x="300.0" y="48.0" font-size="14" font-family="arial" font-weight="bold" text-anchor="middle" dominant-baseline="central">14</text>
-<rect x="239.5" y="29.5" width="37" height="37" stroke="black" stroke-width="2" fill="#d1d1d1" />
+<path d="M239.5,29.5 L276.5,29.5 L276.5,57.25 L267.25,66.5 L248.75,66.5 L239.5,57.25 L239.5,29.5 Z" stroke="black" stroke-width="2" fill="#d1d1d1" />
 <text x="258.0" y="48.0" font-size="14" font-family="arial" font-weight="bold" text-anchor="middle" dominant-baseline="central">15</text>
 <rect x="197.5" y="29.5" width="37" height="37" stroke="black" stroke-width="2" fill="#d1d1d1" />
 <text x="216.0" y="48.0" font-size="14" font-family="arial" font-weight="bold" text-anchor="middle" dominant-baseline="central">16</text>
-<path d="M155.5,29.5 L192.5,29.5 L192.5,57.25 L183.25,66.5 L164.75,66.5 L155.5,57.25 L155.5,29.5 Z" stroke="black" stroke-width="2" fill="#d1d1d1" />
+<rect x="155.5" y="29.5" width="37" height="37" stroke="black" stroke-width="2" fill="#d1d1d1" />
 <text x="174.0" y="48.0" font-size="14" font-family="arial" font-weight="bold" text-anchor="middle" dominant-baseline="central">17</text>
 <path d="M113.5,29.5 L150.5,29.5 L150.5,57.25 L141.25,66.5 L122.75,66.5 L113.5,57.25 L113.5,29.5 Z" stroke="black" stroke-width="2" fill="#d1d1d1" />
 <text x="132.0" y="48.0" font-size="14" font-family="arial" font-weight="bold" text-anchor="middle" dominant-baseline="central">18</text>
-<rect x="71.5" y="29.5" width="37" height="37" stroke="black" stroke-width="2" fill="#d1d1d1" />
+<path d="M71.5,29.5 L108.5,29.5 L108.5,57.25 L99.25,66.5 L80.75,66.5 L71.5,57.25 L71.5,29.5 Z" stroke="black" stroke-width="2" fill="#d1d1d1" />
 <text x="90.0" y="48.0" font-size="14" font-family="arial" font-weight="bold" text-anchor="middle" dominant-baseline="central">19</text>
 <rect x="29.5" y="29.5" width="37" height="37" stroke="black" stroke-width="2" fill="#d1d1d1" />
 <text x="48.0" y="48.0" font-size="14" font-family="arial" font-weight="bold" text-anchor="middle" dominant-baseline="central">20</text>
